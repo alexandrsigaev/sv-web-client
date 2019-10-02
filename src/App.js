@@ -3,18 +3,28 @@ import "./App.css"
 import Header from "./modules/Header/Header";
 import NavigateBar from "./modules/NavigateBar/NavigateBar";
 import Profile from "./modules/Profile/Profile";
+import Dialogs from "./modules/Dialogs/Dialogs";
+import {BrowserRouter, Route} from "react-router-dom";
 
 function App() {
     return (
-        <div>
-            <div className={'top__head'}>
+        <BrowserRouter>
+            <div>
+                <div className={'app-wrapper-top-head'}>
+                </div>
+                <div className='app-wrapper'>
+                    <Header/>
+                    <NavigateBar/>
+                    <div className={'app-wrapper-content'}>
+                        <Route path='/messages' component={Dialogs}/>
+                        <Route path='/profile' component={Profile}/>
+                        <Route path='/news' component={Profile}/>
+                        <Route path='/music' component={Profile}/>
+                        <Route path='/settings' component={Profile}/>
+                    </div>
+                </div>
             </div>
-            <div className='app-wrapper'>
-                <Header/>
-                <NavigateBar/>
-                <Profile/>
-            </div>
-        </div>
+        </BrowserRouter>
     );
 }
 

@@ -9,8 +9,11 @@
     grid-gap: 10px;
 }
 
-.top__head {
+.app-wrapper-top-head {
     height: 50px;
     background-color: #4A76A8;
+}
 
+.app-wrapper-content {
+    grid-area: c;
 }

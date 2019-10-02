@@ -5,7 +5,7 @@ import ProfileHeader from "./ProfileHeader/ProfileHeader";
 
 const Profile = () => {
     return (
-        <div className={css.profile}>
+        <div>
             <ProfileHeader/>
 
             <div>ava + desc</div>
