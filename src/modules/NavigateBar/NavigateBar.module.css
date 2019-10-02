@@ -1,6 +1,8 @@
 .nav {
     grid-area: n;
-    margin: 0 30px;
+    /*margin: 0 30px;*/
+    width: 200px;
+
 }
 
 .item {
@@ -8,11 +10,12 @@
 }
 
 a {
-    width: 150px;
+    width: 120px;
     padding: 10px 5px 10px 5px;
+    border-left: 48px solid rgba(0, 0, 0, 0);
     color: #4A76A8;
     border-radius: 4px;
-    text-align: center;
+    /*text-align: center;*/
     text-decoration: none;
     display: inline-block;
     font-size: 18px;

@@ -6,10 +6,14 @@ import Profile from "./modules/Profile/Profile";
 
 function App() {
     return (
-        <div className='app-wrapper'>
-            <Header/>
-            <NavigateBar/>
-            <Profile/>
+        <div>
+            <div className={'top__head'}>
+            </div>
+            <div className='app-wrapper'>
+                <Header/>
+                <NavigateBar/>
+                <Profile/>
+            </div>
         </div>
     );
 }

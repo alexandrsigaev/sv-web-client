@@ -1,12 +1,9 @@
 .header {
     grid-area: h;
-    background-color: #4A76A8;
-    border-radius: 10px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    margin-top: -50px;
 }
 .header img {
-    margin-left: 3vw;
-    /*margin-left: 20px;*/
-    width: 3vw;
+    margin-left: 60px;
+    margin-top: 5px;
+    width: 40px;
 }
