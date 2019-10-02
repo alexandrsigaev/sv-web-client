@@ -1,0 +1,23 @@
+.nav {
+    grid-area: n;
+    margin: 0 30px ;
+}
+.item{
+    color: white;
+}
+
+a {
+    width: 95px;
+    padding: 10px 5px 10px 5px;
+    color: #4A76A8;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+a:hover {
+    background-color: #afbdcc;
+}
