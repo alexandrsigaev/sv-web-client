@@ -1,0 +1,8 @@
+.avatar__module{
+    margin: 20px 5px;
+}
+.avatar__module img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}

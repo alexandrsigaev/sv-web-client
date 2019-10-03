@@ -10,14 +10,14 @@ function App() {
     return (
         <BrowserRouter>
             <div>
-                <div className={'app-wrapper-top-head'}>
-                </div>
+                {/*<div className={'app-wrapper-top-head'}>*/}
+                {/*</div>*/}
                 <div className='app-wrapper'>
                     <Header/>
                     <NavigateBar/>
                     <div className={'app-wrapper-content'}>
-                        <Route path='/messages' component={Dialogs}/>
                         <Route path='/profile' component={Profile}/>
+                        <Route path='/ms' component={Dialogs}/>
                         <Route path='/news' component={Profile}/>
                         <Route path='/music' component={Profile}/>
                         <Route path='/settings' component={Profile}/>

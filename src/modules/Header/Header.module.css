@@ -1,6 +1,6 @@
 .header {
-    grid-area: h;
-    margin-top: -50px;
+    grid-column: 1/4;
+    background-color: #4A76A8;
 }
 .header img {
     margin-left: 60px;
