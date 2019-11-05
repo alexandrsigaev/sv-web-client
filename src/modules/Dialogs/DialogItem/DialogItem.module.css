@@ -1,0 +1,11 @@
+.dialog {
+    margin-left: 1vmin;
+    margin-top: 2vmin;
+    width: 60%;
+    padding: 20px;
+    background-color: #edeef0;
+}
+
+.dialog a {
+    text-decoration: none;
+}

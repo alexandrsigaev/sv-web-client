@@ -19,7 +19,7 @@ function App() {
                         <Route path='/profile' component={Profile}/>
                         <Route path='/ms' component={Dialogs}/>
                         <Route path='/news' component={Profile}/>
-                        <Route path='/music' component={Profile}/>
+                        <Route path='/music' component={Dialogs}/>
                         <Route path='/settings' component={Profile}/>
                     </div>
                 </div>
